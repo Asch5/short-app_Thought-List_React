@@ -1,0 +1,61 @@
+.app-list-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+}
+.app-list-item-button {
+  display: flex;
+}
+
+.app-list-item button {
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.app-list-item button:focus {
+  box-shadow: none;
+  outline: none;
+}
+.app-list-item .icon-star-full {
+  color: #aeaeae;
+}
+.app-list-item .icon-trash {
+  color: red;
+}
+.app-list-item .icon-heart {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  color: red;
+  transition: 0.3s all;
+  transform: translateX(30px);
+  opacity: 0;
+}
+
+.app-list-item-label {
+  display: block;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+
+  transition: 0.5s all;
+}
+
+.app-list-item.like .icon-heart {
+  opacity: 1;
+
+  transform: translateX(0px);
+}
+
+.app-list-item.important .app-list-item-label {
+  color: #ffd700;
+}
+
+.app-list-item.important .icon-star-full {
+  color: #ffd700;
+}

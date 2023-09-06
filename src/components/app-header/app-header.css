@@ -1,0 +1,20 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-header__el {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.app-header__el__h1 {
+  /* width: 150px;
+  height: 150px; */
+  font-size: 26px;
+}
+
+.app-header__el__h2 {
+  font-size: 1.2rem;
+  color: grey;
+}
