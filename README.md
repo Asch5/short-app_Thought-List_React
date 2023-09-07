@@ -9,4 +9,4 @@ This application creates a list of thoughts that can be searched, liked, and del
 - Thought Count - Displays the total number of thoughts currently in the list. Updates when thoughts are added/deleted.
 - Persistent Storage - Thoughts are saved to local storage to persist when the app is closed or reloaded.
 
-This application demonstrates skills with React state management, hooks, and forms. Key interactions like searching, filtering, and real-time updates are implemented to provide a smooth user experience. The developer has built a practical thought tracking tool with React.
+This application demonstrates skills with React state management, hooks, and forms. Key interactions like searching, filtering, and real-time updates are implemented to provide a smooth user experience.
